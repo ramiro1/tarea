@@ -1,0 +1,36 @@
+import UIKit
+
+for n in 0...100{
+    if n%2==0{
+        if n>29 && n<41{
+        if n%5==0{
+            print(n,"bingo es un numeor par y que viva swift")
+        }
+        else{
+            print(n,"es un numero par y que viva swift")
+        }
+        }
+        else if n%5==0{
+            print(n,"bingo es un numeor par")
+        }
+        else{
+            print(n,"es un numero par ")
+        }
+    }
+    else{
+        if n>29 && n<41{
+        if n%5==0{
+            print(n,"bingo es un numero impar y que viva swift")
+                }
+        else {
+            print(n,"es un numero impar y que viva swift")
+            }
+                }
+        else if n%5==0{
+            print(n,"bingo es un numero impar ")
+        }
+        else {
+            print(n,"es un numero impar")
+        }
+    }
+}
